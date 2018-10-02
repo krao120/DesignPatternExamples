@@ -1,4 +1,4 @@
-package builderPatternExample;
+package com.krao.builderPatternExample;
 
 public interface Query {
 

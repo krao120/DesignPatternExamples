@@ -1,6 +1,6 @@
-package builderPatternExample;
+package com.krao.builderPatternExample;
 
-public class SqlQuery implements Query{
+public class MongoDbQuery implements Query{
 
 	private String from;
 	
@@ -8,7 +8,7 @@ public class SqlQuery implements Query{
 	
 	@Override
 	public void execute() {
-		System.out.println("Executing sqlQuery from: "+from+" where "+where);
+		System.out.println("Executing mongoDbQuery from: "+from+" where "+where);
 	}
 
 	public void setFrom(String from) {
